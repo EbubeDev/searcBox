@@ -1,0 +1,49 @@
+
+input{
+  font-size: 20px;
+  width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  transition: 2s;
+
+}
+
+#searchBox{
+  border-radius: 55px;
+  padding: 30px;
+  background: #B5EAEA;
+  display: flex;
+  align-items: center;
+  box-shadow: 6px 6px 10px -1px #FFBCBC;
+
+}
+
+#icon{
+  width: 50px;
+  cursor: pointer;
+}
+
+.hero{
+  width: 100%;
+  height: 100vh;
+  background: #EDF6E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.micIcon{
+  width: 0;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.active input{
+  width: 400px;
+  padding: 12px;
+}
+
+.active .micIcon{
+  width: 40px;
+}
